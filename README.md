@@ -1,21 +1,21 @@
-# 📊 City Happiness Dashboard – Web Visualization
+# City Happiness Dashboard – Web Visualization
 
 An interactive dashboard built with **Node.js**, **Express**, and **Chart.js** to visualize and explore the City Happiness Index based on urban indicators like air quality, healthcare, mobility, and more.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📈 Bar chart of Top 10 Cities by Composite Happiness Index
-* 📊 Radar chart comparing Sub-Indices across top cities
-* 📅 Line chart showing monthly trend for selected cities
-* 🧭 Pie chart visualizing traffic density distribution
-* 🔥 Heatmap-style bar chart of different indicators across cities
-* 📂 Fully client-side rendering with API served by Express
+*  Bar chart of Top 10 Cities by Composite Happiness Index
+*  Radar chart comparing Sub-Indices across top cities
+*  Line chart showing monthly trend for selected cities
+*  Pie chart visualizing traffic density distribution
+*  Heatmap-style bar chart of different indicators across cities
+*  Fully client-side rendering with API served by Express
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 * **Frontend**: HTML5, CSS3, JavaScript, [Chart.js](https://www.chartjs.org/)
 * **Backend**: Node.js, Express.js
@@ -23,7 +23,7 @@ An interactive dashboard built with **Node.js**, **Express**, and **Chart.js** t
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 city-happiness-visualization/
@@ -41,7 +41,7 @@ city-happiness-visualization/
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -63,7 +63,7 @@ mkdir data
 node convert.js
 ```
 
-> ⚠️ Ensure `Final_Happiness_Index_Data_Processed.csv` exists at project root.
+>  Ensure `Final_Happiness_Index_Data_Processed.csv` exists at project root.
 
 ### 4. Start the Server
 
@@ -75,7 +75,7 @@ Open your browser at [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🗂️ Data Source
+##  Data Source
 
 The dataset is based on a fictional City Happiness Index, created from real-world-style indicators:
 
@@ -91,43 +91,43 @@ Data spans multiple months for each city to enable temporal comparisons.
 
 ---
 
-## 📊 Visualizations Included
+##  Visualizations Included
 
-### ✅ Composite Bar Chart
+###  Composite Bar Chart
 
 > Shows the top 10 cities with the highest average happiness index.
 
-### ✅ Sub-Index Radar Chart
+###  Sub-Index Radar Chart
 
 > Compares environmental, health, and mobility indices of top cities.
 
-### ✅ Monthly Line Chart
+###  Monthly Line Chart
 
 > Select a city to see how its happiness index changes month-to-month.
 
-### ✅ Traffic Pie Chart
+###  Traffic Pie Chart
 
 > See how traffic density categories are distributed across all cities.
 
-### ✅ Heatmap-like Bar Chart
+###  Heatmap-like Bar Chart
 
 > Compare average Air Quality, Cost of Living, and Healthcare across cities.
 
 ---
 
-## ✨ Future Enhancements
+##  Future Enhancements
 
-* 🔍 Search/filter for cities
-* 📉 Toggle between normalized/raw index data
-* 📥 Download filtered reports
-* 📊 Add more chart types like stacked bars or bubble maps
-* ☁️ Deploy using Vercel, Render, or Railway
+*  Search/filter for cities
+*  Toggle between normalized/raw index data
+*  Download filtered reports
+*  Add more chart types like stacked bars or bubble maps
+*  Deploy using Vercel, Render, or Railway
 
 
-## 📜 License
+##  License
 
 MIT License – Free to use, modify, and distribute.
 
 ---
 
-Enjoy exploring the city happiness trends! 🌆✨
+Enjoy exploring the city happiness trends! 
