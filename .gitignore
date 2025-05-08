@@ -1,0 +1,42 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# VSCode settings (optional)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook metadata (optional if you don't want execution counts saved)
+*.nbconvert.ipynb
+
+# Compiled files
+*.so
+*.pyd
+
+# OneDrive conflict copies (Windows-specific)
+~$*
+
+# Mac system files
+._*
